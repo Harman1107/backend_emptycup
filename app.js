@@ -5,7 +5,7 @@ const app = express();
 
 app.use(express.json())
 
-const user = require("./routes/userRoutes");
+const user = require("./routes/blogRoutes");
 
 app.use("/api/v1", user);
 
